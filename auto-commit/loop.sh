@@ -9,5 +9,3 @@ do
    time=`date +'%G-%m-%d %H:%M:%S' -d '-1 days'`
    timedatectl set-time "$time"
 done
-
-
