@@ -1,5 +1,5 @@
 # 感谢大神
-!(tywei90)[https://github.com/tywei90/git-auto-commit.git]
+![tywei90](https://github.com/tywei90/git-auto-commit.git)
 
 # 自动刷github提交记录
 
