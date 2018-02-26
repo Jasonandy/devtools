@@ -1,4 +1,4 @@
-//日期格式化，格式化后:2018-01-26 21:25:12
+//日期进行格式化 感谢github大神
 Date.prototype.format = function(format) {
     var o = {
         "M+": this.getMonth() + 1, //month 

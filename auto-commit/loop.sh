@@ -1,3 +1,4 @@
+echo "------开始loop循环push------"
 if [ ! $1 ]; then  
    echo 'ERROR: Need to apply loop param'    
    exit  
