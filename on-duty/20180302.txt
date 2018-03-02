@@ -1,0 +1,25 @@
+# 挂号支付异常
+
+订单号：Y10001201802230000015
+
+
+cd /data/logbak/log101_business1/all
+
+
+cd /data/logbak/log102_business2/all
+
+cd /data/logbak/log103_business3/all
+
+grep 'Y10001201802230000015' yct_all-2018-03-02.* yct_all.log
+
+A.yct_all.log:2018-03-02 09:12:23[yct:http-bio-9081-exec-43]INFO  com.sunshine.platform.ordermanager.controller.OrderController [OrderController.java:212]:加载挂号列表, pageParams:{"params":{"dateType":"1","orderNo":"Y10001201802230000015","endDate":"2018-03-02","isException":"1","startDate":"2018-02-24"}}
+B.yct_all.log:2018-03-02 09:11:59[yct:catalina-exec-410]INFO  com.sunshine.platform.ordermanager.controller.OrderController [OrderController.java:212]:加载挂号列表, pageParams:{"params":{"dateType":"1","orderNo":"Y10001201802230000015","endDate":"2018-03-02","isException":"1","startDate":"2018-02-24"}}
+yct_all.log:2018-03-02 09:12:25[yct:catalina-exec-489]INFO  com.sunshine.platform.ordermanager.controller.OrderController [OrderController.java:135]:加载门诊缴费列表, pageParams:{"params":{"orderNo":"Y10001201802230000015","endDate":"2018-03-02","isException":"1","startDate":"2018-02-24"}}
+yct_all.log:2018-03-02 09:12:28[yct:catalina-exec-341]INFO  com.sunshine.platform.ordermanager.controller.OrderController [OrderController.java:283]:加载住院缴费列表, pageParams:{"params":{"orderNo":"Y10001201802230000015","endDate":"2018-03-02","isException":"1","startDate":"2018-02-24"}}
+C.yct_all.log:2018-03-02 09:11:57[yct:catalina-exec-110]INFO  com.sunshine.platform.ordermanager.controller.OrderController [OrderController.java:212]:加载挂号列表, pageParams:{"params":{"dateType":"1","orderNo":"Y10001201802230000015","endDate":"2018-03-02","isException":"1","startDate":"2018-02-24"}}
+
+
+
+Y10001201802230000015\
+
+
