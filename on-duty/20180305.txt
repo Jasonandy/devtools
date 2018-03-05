@@ -42,29 +42,12 @@ grep '1810255****' yct_all-2018-03-05.* yct_all.log
 
 grep 'Y11002201803050021329' yct_all-2018-03-05.* yct_all.log
 
+# 固生堂退费 
+	Y11501201803020010705
+reslut：
+	后台调用HIS退款确认失败或异常,原因:取消预约失败
 
+UPDATE BIZ_REGISTER_RECORD_7 SET REG_STATUS=10 WHERE ORDER_NO = 'Y11501201803020010705';	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+grep 'Y11501201803020010705' yct_all-2018-03-05.* yct_all.log
 
