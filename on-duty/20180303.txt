@@ -1,0 +1,51 @@
+#异常退费
+Y31001201803040004704 麻烦退费
+Y12201201803040013776 麻烦退费
+
+cd /data/logbak/log101_business1/all
+
+cd /data/logbak/log102_business2/all
+
+cd /data/logbak/log103_business3/all
+
+grep 'Y31001201803040004704' yct_all-2018-03-05.* yct_all.log
+
+grep 'Y12201201803040013776' yct_all-2018-03-05.* yct_all.log
+
+
+#没有缴费订单
+账号1810255****诊疗卡00000072**
+
+grep '0000072**' yct_all-2018-03-05.* yct_all.log
+grep '1810255****' yct_all-2018-03-05.* yct_all.log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
