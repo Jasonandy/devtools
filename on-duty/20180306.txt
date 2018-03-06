@@ -1,0 +1,12 @@
+# --------------------------start---------------------------------
+cd /data/logbak/log101_business1/all
+
+cd /data/logbak/log102_business2/all
+
+cd /data/logbak/log103_business3/all
+
+grep 'xxxxxxxx' yct_all-2018-03-06.* yct_all.log
+
+#-------------------------end---------------------------------------
+
+# 异常订单处理跟踪
