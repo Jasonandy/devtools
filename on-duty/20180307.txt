@@ -1,0 +1,18 @@
+cd /data/logbak/log101_business1/all
+
+cd /data/logbak/log102_business2/all
+
+cd /data/logbak/log103_business3/all
+
+grep '5000017076' yct_all-2018-03-07.* yct_all.log
+
+grep '5000017076' yct_all-2018-03-07.* yct_all.log
+
+
+#值班异常订单跟踪
+诊疗卡号：
+	5000017076
+	
+BIZ_REGISTER_RECORD_10
+
+[STATE_NORMAL_PAY_TIMEOUT_CANCEL=3]已取消-支付超过规定时长	
