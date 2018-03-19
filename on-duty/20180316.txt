@@ -69,3 +69,5 @@ grep '13719192843' yct_all-2018-03-16.* yct_all.log
  ------------------------------------------------------
 grep '13144275807' yct_all-2018-03-16.* yct_all.log
 
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '' WITH GRANT OPTION;
+
