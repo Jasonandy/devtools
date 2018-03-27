@@ -85,3 +85,104 @@ grep '000701488300' yct_all-2018-03-26.* yct_all.log
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
+@阳光技术支持（刀豆） 13922326903 麻烦退费  000905199400
+
+Y11101201803030008331
+Y11001201803150076864
+
+Y11101201803030008331
+
+Y11101201803030008331  医院 门诊报道 没显示她名字 @中医 ～魏吉兰
+
+
+Y11002201803250032513
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+海风藤   BIZ_REGISTER_RECORD_8 Y60701201803130041599
+
+UPDATE BIZ_REGISTER_RECORD_8 SET REG_STATUS=10 WHERE ORDER_NO = 'Y60701201803130041599';
+
+<if test="balanceId != null" >
+          BALANCE_ID = #{balanceId,jdbcType=VARCHAR},
+      </if>
+
+
+ @眼科-昆布 我退失败了，需要技术退款，麻烦协助退费@阳光技术支持（刀豆） Y61401201803150081626 
+退费提示只有已支付---已预约的单才能进行停诊退费.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/data/application/platform_server/server/20180326_ybyjs/WEB-INF/classes
+
+/data/application/platform_server/server
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Y12101201803240015854												   Y12101201803240015854  BIZ_REGISTER_RECORD_4  第3方退费异常, 退费成功后取消号源
+Y31901201803230018554   订单明天的，麻烦优先处理                       Y31901201803230018554  BIZ_REGISTER_RECORD_9  第3方退费异常, 退费成功后取消号源
+后台调用第3方交易平台的退费查询接口,查询网络异常,原因:
+
+
+订单未成功，显示退费中
+Y11801201803230015959                                           Y11801201803230015959 BIZ_REGISTER_RECORD_10 第3方退费异常, 退费成功后取消号源 
+退费提示退费操作出错
+
+医生停诊
+Y10601201803050015505											Y10601201803050015505  BIZ_REGISTER_RECORD_8 停诊-预约退费确认异常
+Y31901201803150087361											Y31901201803150087361							BIZ_REGISTER_RECORD_6					停诊-第3方退费异常
+退费提示只有已支付---已预约的单才能进行停诊退费
+
+Y11901201803230017580												Y11901201803230017580 BIZ_REGISTER_RECORD_5  第3方退费异常, 退费成功后取消号源
+已跟his确认无记录，退费提示退费操作出错，麻烦协助退款
+
+订单显示未支付，银行卡已扣费
+Y12001201803230018755                                                BIZ_REGISTER_RECORD_6  异常导致的挂号取消,后续轮询处理成功
+转异常单之后无法查询，麻烦协助退款
+
+订单未成功，显示退费中
+Y11801201803230015959                                             Y11801201803230015959   BIZ_REGISTER_RECORD_10 第3方退费异常, 退费成功后取消号源
+退费提示退费操作出错
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+订单未成功，显示退费中
+Y11801201803230015959
+退费提示退费操作出错    这个订单是明天，优先退
+
+
+
+cd /data/logbak/log101_business1/all
+
+cd /data/logbak/log102_business2/all
+
+cd /data/logbak/log103_business3/all
+
+grep 'Y11801201803230015959' yct_all-2018-03-26.* yct_all.log
+
+
+
+dubbo://172.16.30.126:30012/com.sunshine.interfaces.service.hospital.GDYKFYService?anyhost=true&application=yctServiceProvider&dubbo=yct_dubbo&dynamic=false&generic=false&interface=com.sunshine.interfaces.service.hospital.GDYKFYService&methods=getHospitalInfo,refundPreReg,getStopReg,getMedOrders,getClinicFeeDetailSeparate,getPatientType,preRegCancel,getOutSummary,payDeposit,getOrderRecords,getClinicFeeDetailWhole,getExaminations,getPerBedFee,getClinicFeeDetailSeparateSettlement,setDeliveryInfo,getInsureInfo,getIpVisitors,leaveHospitalPay,getExamineQueue,getInPatient,getRegTimeInfo,cancelInsureInfo,getDeliveryInfo,clinicPay,ackRefundPreReg,getDoctorInfo,getBedFee,clinicPaySeparateSettlement,createCard,curRegOrder,getRegScheduleInfo,getClinicPayFeeInfo,getPatientInfo,getMedicineQueue,getDeptInfo,refundCurReg,curRegPay,getRegRecords,getInspectDetail,getGrossIncome,preRegPay,getOutMedicine,getRegDoctorInfo,takeNo,preRegOrder,getMZQueue,getLeaveHospitalPayFeeInfo,getPerBedFeeDetail,getBedRecords,getOpVisitors,getExamineDetail,getLeaveHospitalFee,getRegDeptInfo,getClinicFeeInfo,setDecoctionFee,getInspects,getClinicPayFeeDetail,ackRefundCurReg,getExamines,getClinicFeeDetail,curRegCancel,getDepositList&pid=9026&revision=yct_interface&serialization=hessian2&server=netty&side=provider&timeout=3000000&timestamp=1517270761032&version=YL20171204
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+SELECT * FROM `BIZ_CLINIC_RECORD_1` where BALANCE_ID !='';
+SELECT * FROM `BIZ_CLINIC_RECORD_2` where BALANCE_ID !=''; 
+
+
+[{"appId":"appid123456","appCode":"yctApp","userId":"671211587172184064","account":"13660441275","openId":"","orderNo":"","cityCode":"","cityName":"","hospitalId":"4de25c5dc57643c4b7c324730532d332","hospitalName":"广东药科大学附属第一医院","branchId":"7cc14b1af37e41a584eafe50521e57b1","branchName":"广东药科大学附属第一医院（农林本部）","patientId":"d961a0d663f4469680ef634e3737215f","patientName":"桔梗","patCardType":"3","patCardNo":"10000017441","clinicFeeId":"123456789","isEnableMedicare":"","time":"2018-03-24","deptName":"信息科","doctorName":"刀豆","totalAmout":"2321","medicareAmout":"2311","payAmout":"10","preAmount":"","payTypeCode":"2","payTypeName":"医保","balanceId":"00000","isSupportMedicare":"1","insuranceType":"1","tradeName":"银联在线支付","tradeCode":"unionpay","tradeMode":"2","backUrl":"/mobileapp/clinicpay/toPay/list","insureOrderNo":"","isBranchSingle":"0","fired":"","delivered":"","flyDeliveryType":"","showHospitalName":"1","regSerialNo":"","couponId":"","couponFee":"","payMoney":"10"}]
+[{"recipeId":"111","recipeType":"处方编号(111)","recipeName":"","recipeFee":"2321","deptName":"信息科","doctorCode":"1111111","doctorName":"","decoctionNumber":"","firedPrice":"","recipeNumber":"","canFired":"","canDeliver":"","fired":"","delivered":"","hospitalId":"","hospitalName":"","branchId":"","recipeTime":"","deptCode":"","canPay":"","constraint":"","medicalInsuranceType":"","payTypeCode":"","payTypeName":"","payAmout":"","medicareAmout":"","insureOrderNo":"","recipeDetails":[{"detailTime":"2018-03-24 12:00:00","detailId":"222","detailName":"心理问题","detailSpec":"暂无","detailPrice":"暂无","detailUnit":"暂无","detailNumber":"暂无","detailTotalFee":"2321"}]}]
+
+ update BIZ_CLINIC_RECORD_9 set OPEN_ID=?, APP_ID=?, APP_CODE=?, ACCOUNT=?, HOSPITAL_ID=?, HOSPITAL_NAME=?, BRANCH_ID=?, BRANCH_NAME=?, CAN_PAY = ?, PAY_CONSTRAINT = ?, TOTAL_FEE = ?, MEDICARE_FEE = ?, FIRED_TOTAL_FEE = ?, PRE_FEE = ?, PAY_FEE = ?, SUPPORT_MEDICARE = ?, INSURANCE_TYPE=?, INSURE_ORDER_NUM = ?, ORDER_CREATE_TIME = ?, DOCTOR_NAME = ?, DEPT_NAME = ?, HANDLE_LOG = ?, TRADE_NAME=?, TRADE_MODE=?, RECORD_TITLE= ?, PATIENT_MOBILE=?, PATIENT_NAME=?, ACTUAL_AMOUNT= ?, MEDICARE_CARD_NO= ?, CLINIC_RECORD_TYPE= ?, REG_SERIAL_NO= ?, COUPON_ID=?, COUPON_FEE=?, UPDATE_TIME=? WHERE ORDER_NO = ? AND ORDER_NO_HASH_VAL=? 
+
+ Parameters: (String), appid123456(String), yctApp(String), 13660441275(String), 4de25c5dc57643c4b7c324730532d332(String), 广东药科大学附属第一医院(String), 7cc14b1af37e41a584eafe50521e57b1(String), 广东药科大学附属第一医院（农林本部）(String), null, null, 2321(String), 2311(String), null, 0(String), 10(String), 1(Integer), 1(Integer), (String), 2018-03-24 00:00:00.0(Timestamp), 刀豆(String), 信息科(String), IP:192.168.3.222,HandleDate:2018-03-26 20:30:50,HandleMsg:门诊缴费订单(未支付)生成成功;IP:192.168.3.222,HandleDate:2018-03-27 09:38:01,HandleMsg:门诊缴费订单(未支付)更新成功.(String), 银联在线支付(String), 2(Integer), 门诊缴费:信息科-刀豆(String), 13658996969(String), 桔梗(String), 1(Integer), null, 4(Integer), (String), (String), 0(Integer), 1522114682381(Long), Y1D002201803260000105(String), 1386910564(Integer)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++医保预结算测试+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Y1D902201803270000107
+
+Y1D002201803260000104
+
+Y1D002201803260000105
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
