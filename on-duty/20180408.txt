@@ -114,3 +114,17 @@ Y61502201804080014054
 
 
 Y61502201804080014054
+
+
+
+cd /data/logbak/log101_business1/all
+
+cd /data/logbak/log102_business2/all
+
+cd /data/logbak/log103_business3/all
+
+
+grep 'Y11501201803300025879' yct_all-2018-03-30.*
+
+
+
