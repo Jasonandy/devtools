@@ -21,4 +21,4 @@ Date.prototype.format = function(format) {
 
 let fs = require('fs');
 let time = (new Date()).format("yyyy年MM月dd日 hh:mm:ss");
-fs.appendFileSync('records.txt', `${time}\n\n`);
+fs.appendFileSync('records.txt', `${time}\n\n Made by Jason!`);
