@@ -1,4 +1,7 @@
 #!/bin/bash
 echo "---开始自动提交数据-----"
-cd /data/devtools/devtools/auto-commit && git pull && /usr/bin/node add.js && git commit -a -m ':tada:' && git push origin master 
+
+File_Dir="/data/devtools/auto-commit"
+
+cd ${File_Dir} && git pull && node add.js && git commit -a -m ':tada:' && git push origin master 
 echo "-----Push完成-------:·"
