@@ -31,4 +31,4 @@ var logo = "  | |  | |                                |  \\/  |                 
 let fs = require('fs');
 let time = (new Date()).format("yyyy年MM月dd日 hh:mm:ss");
 //fs.appendFileSync('records.txt', `${time}\n \n`);
-fs.appendFileSync('records.txt', 'Made By Jason !  Copyright 1994-2018 JasonInternational All rights reserved.' + `${time}\n`);
+fs.appendFileSync('records.txt', 'Made By Jason ! Copyright 1994-2018 JasonInternational All rights reserved.' + `${time} \n\n`);
