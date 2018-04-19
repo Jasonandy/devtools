@@ -19,7 +19,7 @@ Date.prototype.format = function(format) {
     return format;
 }
 
-var logo ="  | |  | |                                |  \\/  |                            \r\n" + 
+var logo = "  | |  | |                                |  \\/  |                            \r\n" + 
           "  | |  | |  ___  __ _  _ __    ___  _ __  | \\  / |  ___   _ __    __ _   ___  \r\n" + 
           "  | |  | | / __|/ _` || '_ \\  / _ \\| '__| | |\\/| | / _ \\ | '_ \\  / _` | / _ \\ \r\n" + 
           "  | |__| || (__| (_| || | | ||  __/| |    | |  | || (_) || | | || (_| || (_) |\r\n" + 
@@ -30,5 +30,5 @@ var logo ="  | |  | |                                |  \\/  |                  
 
 let fs = require('fs');
 let time = (new Date()).format("yyyy年MM月dd日 hh:mm:ss");
-fs.appendFileSync('records.txt', `${time}\n!`);
+fs.appendFileSync('records.txt', `${time}\n`);
 fs.appendFileSync('records.txt', logo);
