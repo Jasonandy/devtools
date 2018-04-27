@@ -125,7 +125,10 @@ cd /data/logbak/log102_business2/all
 
 cd /data/logbak/log103_business3/all
 
-grep 'Y11001201803300018654' yct_all-2018-03-30.* yct_all.log
+
+Y10901201803260029607
+
+grep 'Y10901201803260029607' yct_all-2018-03-26.*
 
 
 Y31301201803290026474  ，请退费@阳光技术支持（刀豆）    -- 已退
