@@ -172,7 +172,7 @@ UPDATE BIZ_REGISTER_RECORD_5 SET REG_STATUS=10 WHERE ORDER_NO = 'Y61701201802220
 —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Y61001201802230005316    停诊退费，这边退失败了@阳光技术支持（刀豆） 
 
-UPDATE BIZ_REGISTER_RECORD_4 SET REG_STATUS=10 WHERE ORDER_NO = 'Y61001201802230005316';
+UPDATE BIZ_REGISTER_RECORD_4 SET REG_STATUS=10 WHERE HANDLE_LOG = '';
 
 
 
